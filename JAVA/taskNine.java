@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class taskEight{
+public class taskNine{
 public static void main(String[] args) {
  
 int[] myArray = {2, 3, 5, 6}; 
