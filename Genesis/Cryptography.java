@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Cryptography{
-public static void main(System[] args){
+public static void main(String[] args){
 FourIntegerPrompt object = new FourIntegerPrompt();
 int verifiedData = object.readFourIntInput();
 int firstDigit = verifiedData / 1000;
