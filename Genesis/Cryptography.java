@@ -13,8 +13,6 @@ int thirdMod = (thirdDigit + 7) % 10;
 int fourthMod = (fourthDigit + 7) % 10;
 String data = "" + thirdMod + fourthMod + firstMod + secondMod ;
 System.out.println(data);
-
 }
-
 
 }
