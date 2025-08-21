@@ -55,6 +55,7 @@ items.add(item);
 System.out.println(item + " added to the list.");
 return;
 }
+// Add method without user input for testing
 public void addItem(String item) {
 items.add(item.toLowerCase());
 }
@@ -74,6 +75,9 @@ items.remove(item);
 System.out.println(item + " was removed from list.");
 return;
 }
+public void removeItem(String item) {
+items.remove(item.toLowerCase());
+}
 
 public void displayItems() {
 if (items.size() < 0){
@@ -86,7 +90,8 @@ System.out.printf(" %s%n", items.get(index));
 }
 }
 public static void main(String[] args) {
-new GroceryApp().run();
+GroceryApp object = new GroceryApp();
+object.run();
     }
 
 
