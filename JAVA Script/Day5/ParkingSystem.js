@@ -1,9 +1,9 @@
-1. define function to take in a list as argument and return a list of size 20, with all index having value of 0.
-2. value 0 representing empty slots available.
-3. value 1 representing filled slots in Park.
-4. define function that allows car to fill in empty slots from the right when string "right" is called as an argument.
-5. define function that allows car to fill in empty slots from the left when string "left" is called as an argument.
-5. define function that rmoves car from any designated position left or right if slot is empty by passing a number from 0 - 19 as an argument.
+//1. define function to take in a list as argument and return a list of size 20, with all index having value of 0.
+//2. value 0 representing empty slots available.
+//3. value 1 representing filled slots in Park.
+//4. define function that allows car to fill in empty slots from the right when string "right" is called as an argument.
+//5. define function that allows car to fill in empty slots from the left when string "left" is called as an argument.
+//5. define function that rmoves car from any designated position left or right if slot is empty by passing a number from 0 - 19 as an argument.
 
 
 
